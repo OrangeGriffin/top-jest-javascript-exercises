@@ -1,4 +1,4 @@
-const reverseString = function (providedString) {
+/* const reverseString = function (providedString) {
   let reversedString = ""; // Create empty string for result placholder
   const reversedStringArray = []; // Create empty array for the reverse array of the provided string
   const myStrArray = providedString.split(""); // Create array from the providedString
@@ -20,6 +20,17 @@ const reverseString = function (providedString) {
 
   return reversedString;
 
+}; */
+
+// Reviewing the provided solution
+const reverseString = function (providedString) {
+    let reversedString = '';
+    
+    reversedString= providedString.split("");
+    reversedString = reversedString.reverse();
+    reversedString = reversedString.join("");
+
+    return reversedString;
 };
 
 // Do not edit below this line
